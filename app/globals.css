@@ -8,11 +8,12 @@
   box-sizing: border-box;
   font-family: Myriad Pro;
   /* background: radial-gradient(rgb(190, 167, 201),rgb(151, 136, 219)); */
+   background: linear-gradient(rgb(72, 0, 195),rgb(9, 0, 47));
 }
 
 html,
 body {
- background: linear-gradient(rgb(72, 0, 195),rgb(9, 0, 47));
+ 
   /* overflow: hidden; */
   height: 100%;
   width: 100%;
