@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Myriad Pro;
+  /* background: radial-gradient(rgb(190, 167, 201),rgb(151, 136, 219)); */
+}
+
+html,
+body {
+ background: linear-gradient(rgb(40, 0, 108),rgb(19, 0, 103));
+  /* overflow: hidden; */
+  height: 100%;
+  width: 100%;
+
+}
+
+#main {
+  /*   
+      display: flex;
+      justify-content: center;
+      align-items: center; */
+  /* height: 100%;  */
+  /* width: 100%; */
+  /* display: flex; */
+  z-index: 999;
+
+}
+
+#mainh1 {
+  font-size: 75px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  /* -webkit-text-stroke: 5px rgb(0, 0, 0); */
+}
+
+#box {
+
+  width: 540px;
+
+  margin-top: 7%;
+
+  border-radius: 4px;
+  background-color: rgb(229, 229, 229);
+
+}
+
+input {
+  width: 90%;
+  color: white;
+  background-color: rgb(84, 83, 83);
+  /* background: linear-gradient(rgb(37, 37, 37),rgb(62, 62, 62),rgb(37, 37, 37));  */
+}
+
+input::placeholder {
+  color: rgb(223, 223, 223);
+  font-size: 15.5px;
+
+}
+
+button {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-bottom: 7px;
+  margin-left: 77%;
+  padding: 8px;
+  border-radius: 5px;
+  font-size: 16px;
+
+}
+
+#delete {
+  position: absolute;
+  /* Position the delete button absolutely within the task item */
+  right: 10px;
+  /* Adjust the right offset as needed */
+  top: 50%;
+  /* Vertically center the button */
+  transform: translateY(-50%);
+  /* Vertically center the button */
+  height: 35px;
+
+}
+
+#page2 {
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  /* background-color: ; */
+}
+
+#second {
+  margin-top: 8%;
+  width: 90%;
+  /* background-color: red; */
+
+
+}
+
+#second>ul {
+  margin-bottom: 20px;
+  /* height: 60px; */
+  text-align: center;
+  background-color: rgb(229, 229, 229);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.emoji {
+  font-size: 30px;
+}
+
+
+
+#taskbox {
+  display: inline-block;
+
+}
+
+#taskli {
+  width: 100%;
+
+  position: relative;
+}
+
+@media (max-width:500px) {
+  #mainh1 {
+    margin-top: 10%;
+
+  }
+
+  #box {
+    width: 355px;
+
+    margin-top: 22%;
+    border-radius: 4px;
+  }
+
+  button {
+    width: 100px;
+    margin-left: 242px;
+    font-size: 15px;
+    /* padding: 2px; */
+    padding: 8px;
+  }
+
+  #second {
+    margin-top: 8%;
+    width: 90%;
+    border-radius: 10px;
+
+
+
+  }
+
+  #second>ul {
+    margin-bottom: 20px;
+    /* height: 60px; */
+    /* width: ; */
+    text-align: center;
+    /* padding: 3px; */
+    padding-bottom:20px;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 16px;
+    z-index: 999;
+    /* border-radius: 10px; */
+  }
+#taskli {
+   padding: calc(100%-90%);
+    width: 90%;
+  }
+  #delete{
+    /* Position the delete button absolutely within the task item */
+      right: -20px;
+      /* Adjust the right offset as needed */
+      top: 80%;
+      /* Vertically center the button */
+      transform: translateY(-50%);
+      padding-top: 5px;
+      height: 30px;
+      width: 70px;
+      text-align: center;
+  }
+
+}
