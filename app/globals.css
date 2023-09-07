@@ -8,7 +8,6 @@
   box-sizing: border-box;
   font-family: Myriad Pro;
   /* background: radial-gradient(rgb(190, 167, 201),rgb(151, 136, 219)); */
-  
 }
 
 html,
@@ -17,6 +16,7 @@ body {
   /* overflow: hidden; */
   height: 100%;
   width: 100%;
+    overflow-x: hidden;
 
 }
 
@@ -67,8 +67,8 @@ button {
   background-color: rgb(0, 0, 0);
   color: white;
   margin-bottom: 7px;
-  margin-left: 77%;
-  padding: 8px;
+  margin-right: 20px;
+  padding: 10px;
   border-radius: 5px;
   font-size: 16px;
 
@@ -130,7 +130,7 @@ button {
   position: relative;
 }
 
-@media (max-width:500px) {
+@media (max-width:450px) {
   #mainh1 {
     margin-top: 10%;
 
